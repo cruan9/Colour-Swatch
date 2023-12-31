@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+}
+
+#toolbar {
+  height: 50px;
+  position: relative;
+  background-color: lightgray;
+  display: block;
+}
+
+.toolbarButton {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+}
+
+#container {
+  margin: 10px;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  height: calc(100vh - 120px);
+}
+
+#editor {
+  display: flex;
+  flex-flow: row;
+  gap: 10px;
+  height: 50vh;
+}
+#rectangle {
+  border: solid 1px black;
+  width: 50%;
+  display: flex;
+}
+
+#textEditor {
+  border: solid 1px gray;
+  width: 50%;
+  background-color: whitesmoke;
+}
+
+#swatchList {
+  height: 50%;
+  flex: 1 1 0;
+  flex-flow: row wrap;
+  display: flex;
+  align-content: flex-start;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.colourInput {
+  margin: 10px;
+}
+
+.numberInput {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.swatch {
+  width: 50px;
+  height: 50px;
+  border: solid 1px lightgray;
+  background-color: turquoise;
+}
+
+.swatchSelected {
+  width: 50px;
+  height: 50px;
+  border: solid 1px black;
+  background-color: turquoise;
+}
+
+#footer {
+  top: calc(100vh - 50px);
+  height: 50px;
+  font-family: sans-serif;
+  text-align: right;
+  background-color: lightgrey;
+}
+
+#status {
+  position: fixed;
+  margin: 15px;
+  right: 10px;
+}
+
+#sat {
+  margin-left: 20px;
+}
+
+#hue {
+  margin-left: 13px;
+}
+
+.rangeInput {
+  margin-left: 10px;
+  width: calc(48vw - 150px);
+}
+
+#hexInput {
+  margin-left: 10px;
+  margin-top: 30px;
+}
